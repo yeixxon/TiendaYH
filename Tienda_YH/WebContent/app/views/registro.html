@@ -1,0 +1,112 @@
+<div>
+<form>
+			<div class="container-fluid">
+				<div class="row registro">
+					<div class="col--md-12">
+						<div class="titulo">
+							Registrate					
+						</div>
+					</div>
+					<div class="col-md-6">
+						  <div class="form-group">
+						    <label for="exampleInputdocumento">Documento de identidad</label>
+						    <input type="text" class="form-control" id="exampleInputdocumento" placeholder="Documento de identidad" ng-model="user.documento">
+						  </div>
+					</div>
+					<div class="col-md-6">
+						  <div class="form-group">
+						    <label for="exampleInputnombre1">Nombre</label>
+						    <input type="text" class="form-control" id="exampleInputnombre1" placeholder="Nombre" ng-model="user.nombre_1">
+						  </div>
+					</div>	
+					<div class="col-md-6">
+						  <div class="form-group">
+						    <label for="exampleInputnombre2">Segundo nombre</label>
+						    <input type="text" class="form-control" id="exampleInputnombre2" placeholder="Segundo nombre" ng-model="user.nombre_2">
+						  </div>
+					</div>	
+					<div class="col-md-6">
+						  <div class="form-group">
+						    <label for="exampleInputapellido1">Primer apellido</label>
+						    <input type="text" class="form-control" id="exampleInputapellido1" placeholder="Primer apellido" ng-model="user.apellido_1">
+						  </div>
+					</div>	
+					<div class="col-md-6">
+						  <div class="form-group">
+						    <label for="exampleInputapellido2">Segundo apellido</label>
+						    <input type="text" class="form-control" id="exampleInputapellido2" placeholder="Segundo apellido" ng-model="user.apellido_2">
+						  </div>
+					</div>	
+					<div class="col-md-6">
+						  <div class="form-group">
+						    <label for="exampleInputfechan">Fecha nacimiento</label>
+						    <input type="datetime" class="form-control" id="exampleInputfechan" placeholder="Fecha nacimiento" ng-model="user.fecha_Nacimiento">
+						  </div>
+					</div>
+					<div class="col-md-6">
+						  <div class="form-group">
+						    <label for="exampleInputcelular">Celular</label>
+						    <input type="text" class="form-control" id="exampleInputcelular" placeholder="Celular" ng-model="user.celular">
+						  </div>
+					</div>	
+					<div class="col-md-6">
+						  <div class="form-group">
+						    <label for="exampleInputtelefono">Tel&eacute;fono</label>
+						    <input type="text" class="form-control" id="exampleInputtelefono" placeholder="Tel&eacute;fono" ng-model="user.telefono">
+						  </div>
+					</div>	
+					<div class="col-md-6">
+						  <div class="form-group">
+							  <label for="exampleInputsexo">Sexo</label>
+								<div class="radio">
+								<label class="radio-inline">
+								  <input type="radio" name="inlineRadioOptions" id="inlineRadio1" value="M" ng-model="user.sexo">Masculino
+								</label>
+								<label class="radio-inline">
+								  <input type="radio" name="inlineRadioOptions" id="inlineRadio2" value="F" ng-model="user.sexo">Femenino
+								</label>			
+								</div>					
+						  </div>
+					</div>	
+					<div class="col-md-6">
+						  <div class="form-group">
+						    <label for="exampleInputEmail1">Estado civil</label>
+						    <select class="form-control" ng-model="user.estado_Civil">
+							  <option value="S">Soltero</option>
+							  <option value="C">Casado</option>
+							  <option value="U">Union libre</option>
+							  <option value="V">Viudo</option>
+							</select>
+						  </div>	
+					</div>	
+					<div class="col-md-6">
+						  <div class="form-group">
+						    <label for="exampleInputdireccion">Direccion</label>
+						    <input type="text" class="form-control" id="exampleInputdireccion" placeholder="Direccion" ng-model="user.direccion">
+						  </div>
+					</div>
+					<div class="col-md-6">
+						  <div class="form-group">
+						    <label for="exampleInputEmail">Correo electronico</label>
+						    <input type="email" class="form-control" id="exampleInputEmail" placeholder="Correo electronico" ng-model="user.email">
+						  </div>
+					</div>		
+					<div class="col-md-6">
+						  <div class="form-group">
+						    <label for="exampleInputpass1">Contrase&ntilde;a</label>
+						    <input type="password" class="form-control" id="exampleInputpass1" placeholder="Contrase&ntilde;a" ng-model="user.password">
+						  </div>
+					</div>	
+					<div class="col-md-6">
+						  <div class="form-group">
+						    <label for="exampleInputpass2">Confirmar contrase&ntilde;a</label>
+						    <input type="password" class="form-control" id="exampleInputpass2" placeholder="Confirmar contrase&ntilde;a" ng-model="user.usuario">
+						  </div>
+					</div>	
+					<div class="col-md-12">	
+						<input class="btn btn-default" type="button" ng-click="guardar(user)" value="Registrarse"/>
+					</div>							
+				</div>
+			</div>
+		</form>
+</div>

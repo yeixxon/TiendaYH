@@ -1,0 +1,58 @@
+.head{
+	width: 95%;
+}
+.head img{
+	margin-top: 20px;
+	margin-left: 50px;
+}
+.head span{
+	text-align: left;
+	margin-top: 20px;
+	margin-left: 30px;
+}
+.head p{
+	margin-top: 50px;
+}
+.banner img{
+	margin-left: 37px;
+	width: 94%;
+	height: 100px;
+	margin-top: -50px;
+}
+
+.titulo{
+	font-size: 20px;
+	font-family: arial;
+	margin-bottom: 50px;
+	margin-top: 50px;
+	text-align: center;
+	margin-left: -50px;
+}
+.login .col-md-12 .btn{
+	margin-left: 36%;
+	margin-top: 20px;
+}
+.imglogin{
+	border: 2px solid #808080;
+	margin: 25px 0px 0px 50px;
+	padding: 0px;
+	border-radius: 1052px;
+	overflow: hidden;
+	width: 80%;
+}
+.form-control{
+	width: 90%;
+}
+.registro{
+	margin-left: 20px;
+}
+.registro .form-group {
+    margin-bottom: 30px;
+}
+.left-fix{
+	float: none;
+}
+.registro .col-md-12 .btn{
+	margin-left: 44%;
+	margin-top: 20px;
+}

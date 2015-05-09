@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<persistence version="2.1" xmlns="http://xmlns.jcp.org/xml/ns/persistence" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/persistence http://xmlns.jcp.org/xml/ns/persistence/persistence_2_1.xsd">
+	<persistence-unit name="Tienda_YH">
+	    <provider>org.eclipse.persistence.jpa.PersistenceProvider</provider>
+		<class>model.Usuario</class>
+		<class>model.Producto</class>
+		<class>model.Medio_Pago</class>
+		<class>model.Factura</class>
+		<class>model.Detalle_Factura</class>
+		<class>model.cuenta_Usuario</class>
+		<class>model.ConceptoDetalle</class>
+		<class>model.Concepto</class>
+		<class>model.Categoria_Producto</class>
+		
+	    <properties>
+			<property name="eclipselink.jdbc.driver" value="com.microsoft.sqlserver.jdbc.SQLServerDriver"/>
+			<property name="eclipselink.jdbc.url" value="jdbc:sqlserver://ALEJANDRO\\SQLEXPRESS:1433;databaseName=Venta"/>
+			<property name="eclipselink.jdbc.user" value="sa"></property>
+			<property name="eclipselink.jdbc.password" value="123"></property>
+		</properties>
+
+	</persistence-unit>
+</persistence>
